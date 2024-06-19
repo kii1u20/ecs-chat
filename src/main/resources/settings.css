@@ -1,0 +1,7 @@
+root {
+    display: block;
+}
+
+.root {
+    -fx-background-color: linear-gradient(#2c2e30, #b64242, #3f5272)
+}

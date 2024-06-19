@@ -1,0 +1,96 @@
+root {
+    display: block;
+}
+.scroll-pane {
+    -fx-background: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+}
+.scroll-pane .viewport {
+    -fx-padding: 10px;
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: cover;
+}
+.messages {
+    -fx-line-spacing: 2px;
+    -fx-padding: 10 10 10 10;
+    -fx-font-size: 16px;
+}
+.messages Text {
+    -fx-font-size: 16px;
+}
+.root {
+    -fx-background-color: #64b4e2;
+}
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+#welcome-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-background-color: linear-gradient(#2c9ddd, #1b417d);
+}
+.timestamp {
+    -fx-fill: #4b4b4b;
+    -fx-font-size: 16px;
+}
+
+.nickname {
+    -fx-font-weight: bold;
+    -fx-fill: blue;
+    -fx-font-size: 16px;
+}
+.my_nickname {
+    -fx-font-weight: bold;
+    -fx-fill: red;
+    -fx-font-size: 16px;
+}
+.text-field {
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:vertical .track{
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-border-radius :2.0em;
+}
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 10.0 0.0 0.0;
+
+}
+
+ .scroll-bar:vertical .increment-arrow,
+ .scroll-bar:vertical .decrement-arrow{
+    -fx-shape : " ";    
+    -fx-padding :0.0 0.15em;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color :derive(black,90.0%);
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color :derive(#4D4C4F,10.0%);
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+.userList {
+    -fx-background-color : #cbdfff;
+}

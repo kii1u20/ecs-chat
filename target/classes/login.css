@@ -1,0 +1,23 @@
+root {
+    display: block;
+}
+.root {
+    -fx-background-color: linear-gradient(#2c2e30, #b64242, #3f5272)
+}
+
+
+#welcome-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(#2c9ddd, #1b417d);
+}
+
